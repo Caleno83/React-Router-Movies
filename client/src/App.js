@@ -36,6 +36,9 @@ const App = () => {
         <MovieList movies={movieList}  />
       </Route> 
       <Route  path="/movies/:id" component={Movie} />
+      {/* <Route path="/movies/:id">
+        <Movie />
+      </Route> */}
     {/* </Switch>  */}
     </div>
   );
